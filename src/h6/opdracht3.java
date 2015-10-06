@@ -1,10 +1,9 @@
 package h6;
 
 import java.awt.*;
-
 import java.applet.*;
 
-public class H6 extends Applet {
+public class opdracht3 extends Applet {
 
 /**
 	 * 
