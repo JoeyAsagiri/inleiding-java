@@ -1,0 +1,27 @@
+2.8
+1: Wat is machinetaal
+Machinetaal is de taal die een computer kan lezen
+2: Welke drie hulpmiddelen heb je nodig om te kunnen programmere?
+Een tekstverwerker, een compiler en een linker
+3:Hoe herken je opdrachten in de broncode?
+Als er een puntkomma (;) achter staat
+4: Waartoe dienen de import-opdrachten?
+Om voorgedefinieerde code uit klassen te halen
+5: Wat is een methode?
+Een methode is een aantal opdrachten met een naam erboven
+
+4.4
+1: Wat is een platform?
+De combinatie tussen een processor en een besturingssysteem
+2: Waarom hoeft een programmeur in Java maar één keer een programma te schrijven voor verschillende platforms?
+In Java wordt de broncode vertaald naar een standaard tussentaal, de JVM vertaalt dat dan automatisch naar de machinetaal voor het gebruikte platform.
+3: Wat is bytecode?
+Bytecode is de standaard tussentaal waar Java naar vertaald wordt.
+4: Wat doet JVM?
+Vertaalt de Bytecode naar de machinetaal van het gebruikte platform
+5: Met welke methode kun je een vierkant tekenen?
+Als bij drawRect de laatste twee getallen gelijk zijn
+6: Noem drie methodes waarmee je een cirkel kunt tekenen?
+Bij drawOval de laatste twee cijfers gelijk hebben, of drawArc waar de laatste 4 cijfers beginnen met 0 en dan bij elk volgende cijfer 90 erbij doen
+7: Waarom worden opdrachten voor het scherm in paint() gezet en niet in een andere methode?
+Omdat de methode dan aangeroepen wordt op het moment dat de applet het venster op het scherm verversd.
