@@ -1,0 +1,13 @@
+Vragen
+
+1. Het verschil tussen een while-lus en een do-while-lus is dat de laatste minimaal één keer 
+
+wordt doorlopen omdat controle van de voorwaarde achteraf plaatsvindt en een while-lus 
+
+minimaal nul keer wordt doorlopen omdat de voorwaarde vooraf gecontroleerd wordt.
+
+2. De for-lus is eigenlijk een while-lus
+
+3. Als er een of meer lussen in een andere lus zitten.
+
+4. Nee, want het werkt alleen als x minder dan eind is, terwijl x 10 is en eind 5 is.
