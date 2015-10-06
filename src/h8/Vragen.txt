@@ -1,0 +1,39 @@
+Hoofdstuk 7:
+
+Vragen:
+
+1. Ja, in http://docs.oracle.com/javase/7/docs/api/
+
+2. in de klasse Window
+
+3. JWindow, het verschil is dat het geen title bar, window-management knoppen enz heeft
+
+Hoofdstuk 8:
+
+Vragen:
+
+1. Wat is event-handling?
+
+Zorgen dat een event kan gebeuren
+
+2. Wat is een gebruikersinterface?
+
+Een grafisch interface dat automatisch commands uitvoert als je op bepaalde delen klikt
+
+3. Waarom moet er voor een knop wel en voor een tekst geen event-handling 
+
+geprogrammeerd worden?
+
+4. Wat is een lege string? 
+
+Een string waar niks tussen de haakjes zit
+
+5. Wat is het verschil tussen een tekstvak en een label?
+
+Tekstvak is om tekst in te vullen, Label is een stukje vaste tekst naast de tekstvak
+
+6. Waarom moeten getallen uit een tekstvak altijd geconverteerd worden naar een double 
+
+of een int?
+
+Java moet het eerst initializen voordat het gebruikt kan worden
