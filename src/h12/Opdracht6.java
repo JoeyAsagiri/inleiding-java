@@ -5,14 +5,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Opdracht4 extends Applet {
+public class Opdracht6 extends Applet {
+	int tal;
 	int tel;
     int gezocht;
 	boolean gevonden;
 	TextField tekstvak;
 	Button knop;	
-	int[] tabel = {1,2,3,4,5,6,7,8,9,10};
-	int[] getal;
+	int[] tabel = {1,1,2,2,2,2,3,4,4,4,5,5,6,6,6,6,6,7,7,8,9,9,9,9,10,10,10};
 	
 	public void init() {
 		gevonden = false;
@@ -26,30 +26,29 @@ public class Opdracht4 extends Applet {
 	public void paint(Graphics g){
 		if (tel >=1){
 		if(gevonden == true) {	
-		g.drawString("De waarde ["+ gezocht +"] is gevonden.", 20, 40);
-		g.drawString("" + getal, 20, 60);
+		g.drawString("De waarde ["+ gezocht +"] is "+ tal +" keer gevonden.", 20, 40);
 		}
 		else {
-	    g.drawString("De waarde ["+ gezocht +"] is niet gevonden.", 20, 40);			    
+	    g.drawString("De waarde ["+ gezocht +"] is niet gevonden.", 20, 40);		
+	    
 		}
 		}
     }
 	
 	class KnopListener implements ActionListener{
 		public void actionPerformed(ActionEvent e){
+		 tal = 0;
 		 tel ++;
 		 gevonden = false;
 		 String s = tekstvak.getText();
 	     gezocht = Integer.parseInt(s);
 	     int teller = 0;
-	        while(teller < tabel.length) {	        	
+	        while(teller < tabel.length) {
 	            if(tabel[teller] == gezocht) {
+	                tal ++;
 	                gevonden = true;
-	            }	         
+	            }	     
 	            teller ++;
-	        }
-	        if (gevonden == true){
-	        	teller = 11;
 	        }
 	     repaint();
 		}
