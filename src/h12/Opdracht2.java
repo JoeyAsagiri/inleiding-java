@@ -9,7 +9,7 @@ public class Opdracht2 extends Applet {
 
 	public void init() {		 
 		 for (int teller = 0; teller < 25; teller ++) {	            
-		 knop[teller] = new Button("okay");
+		 knop[teller] = new Button("okay" + teller );
 		 
 		 add(knop[teller]);
 		 }
